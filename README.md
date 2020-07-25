@@ -1,5 +1,5 @@
 
-![](https://github.com/nancycg/PatientRegistrationLoggingSystem/blob/master/resources/Image1.png)
+![](https://github.com/nancycg/PatientRegistrationLoggingSystem/blob/master/resources/image1.png)
 ![](https://github.com/nancycg/PatientRegistrationLoggingSystem/blob/master/resources/image2.png)
 
 # Troubleshoot 
