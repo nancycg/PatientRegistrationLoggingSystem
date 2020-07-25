@@ -1,0 +1,6 @@
+Laura|Sandler|1245319599|oncology
+Jeff|Goldman|1233355589|pediatrics
+Sarah|Wasserman|1246129768|internal medicine
+John|Choi|1367223575|internal medicine
+Joe|Frog|444|oncology
+Mary|Li|33333|oncology

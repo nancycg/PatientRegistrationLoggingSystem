@@ -1,0 +1,83 @@
+Jul 25, 2020 11:30:37 AM prls.patients.PatientRegSystemInit main
+FINE: Created patient registry system.
+Jul 25, 2020 11:30:37 AM prls.patients.PatientList add
+FINE: adding patient Heather|Smith|333-33-3333|New York|NY
+
+Jul 25, 2020 11:30:37 AM prls.patients.PatientList add
+FINE: adding patient Janice|Snealy|233-45-2222|Madison|WI
+
+Jul 25, 2020 11:30:37 AM prls.patients.PatientList add
+FINE: adding patient Herbert|Simon|122-45-2323|Atlanta|GA
+
+Jul 25, 2020 11:30:37 AM prls.patients.PatientList add
+FINE: adding patient Sally|Schnee|455-55-5555|NYC|NY
+
+Jul 25, 2020 11:30:37 AM prls.patients.PatientList add
+FINE: adding patient Bunny|loh|999|NY|UI
+
+Jul 25, 2020 11:30:37 AM prls.patients.PatientRegSystemInit loadPatients
+FINE: Read patient file successfully.
+Jul 25, 2020 11:30:37 AM prls.patients.PatientRegSystemInit loadPatients
+FINE: patient Input stream closed.
+Jul 25, 2020 11:30:38 AM prls.patients.PatientRegSystemInit main
+FINE: Read patient information from patient file.
+Jul 25, 2020 11:30:38 AM prls.patients.DoctorList add
+FINE: Adding doctor to the list : Laura|Sandler|1245319599|oncology
+
+Jul 25, 2020 11:30:38 AM prls.patients.DoctorList add
+FINE: Adding doctor to the list : Jeff|Goldman|1233355589|pediatrics
+
+Jul 25, 2020 11:30:38 AM prls.patients.DoctorList add
+FINE: Adding doctor to the list : Sarah|Wasserman|1246129768|internal medicine
+
+Jul 25, 2020 11:30:38 AM prls.patients.DoctorList add
+FINE: Adding doctor to the list : John|Choi|1367223575|internal medicine
+
+Jul 25, 2020 11:30:38 AM prls.patients.DoctorList add
+FINE: Adding doctor to the list : Joe|Frog|444|oncology
+
+Jul 25, 2020 11:30:38 AM prls.patients.DoctorList add
+FINE: Adding doctor to the list : Mary|Li|33333|oncology
+
+Jul 25, 2020 11:30:38 AM prls.patients.PatientRegSystemInit loadDoctors
+FINE: Read doctor information successfully.
+Jul 25, 2020 11:30:38 AM prls.patients.PatientRegSystemInit loadDoctors
+FINE: Doctor Input stream closed.
+Jul 25, 2020 11:30:38 AM prls.patients.PatientRegSystemInit main
+FINE: Read doctor information from doctor file.
+Jul 25, 2020 11:30:38 AM prls.patients.VisitList add
+FINE: adding visit 233-45-2222|1233355589|11/23/2012
+
+Jul 25, 2020 11:30:38 AM prls.patients.VisitList add
+FINE: adding visit 233-45-2222|1233355589|11/25/2012
+
+Jul 25, 2020 11:30:38 AM prls.patients.VisitList add
+FINE: adding visit 122-45-2323|1245319599|05/15/2013
+
+Jul 25, 2020 11:30:38 AM prls.patients.VisitList add
+FINE: adding visit 333-33-3333|1246129768|08/19/2013
+
+Jul 25, 2020 11:30:38 AM prls.patients.VisitList add
+FINE: adding visit 122-45-2323|1367223575|10/21/2013
+
+Jul 25, 2020 11:30:38 AM prls.patients.VisitList add
+FINE: adding visit 333-33-3333|33333|10/15/2019
+
+Jul 25, 2020 11:30:38 AM prls.patients.PatientRegSystemInit loadVisits
+FINE: Read visit file successfully.
+Jul 25, 2020 11:30:38 AM prls.patients.PatientRegSystemInit loadVisits
+FINE: Visit Input stream closed.
+Jul 25, 2020 11:30:38 AM prls.patients.PatientRegSystemInit main
+FINE: Read visit information from visit file.
+Jul 25, 2020 11:31:03 AM prls.patients.VisitList findByDate
+FINE: Found visit by date: [233-45-2222|1233355589|11/25/2012
+]
+Jul 25, 2020 11:31:03 AM prls.patients.PatientList findBySSN
+FINE: Patient found with ssn [233-45-2222] : Janice|Snealy|233-45-2222|Madison|WI
+
+Jul 25, 2020 11:31:03 AM prls.patients.DoctorList findByNPI
+FINE: Doctor record found with npi[1233355589]: Jeff|Goldman|1233355589|pediatrics
+
+Jul 25, 2020 11:31:03 AM prls.patients.PatientRegSystem getVisitsByDate
+FINE: Getting Visits by date [Sun Nov 25 00:00:00 IST 2012] : [Janice|Snealy|233-45-2222|Madison|WI|Jeff|Goldman|1233355589|pediatrics|Sun Nov 25 00:00:00 IST 2012
+]

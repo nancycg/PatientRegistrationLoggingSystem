@@ -1,0 +1,5 @@
+Heather|Smith|333-33-3333|New York|NY
+Janice|Snealy|233-45-2222|Madison|WI
+Herbert|Simon|122-45-2323|Atlanta|GA
+Sally|Schnee|455-55-5555|NYC|NY
+Bunny|loh|999|NY|UI
